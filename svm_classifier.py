@@ -1,9 +1,13 @@
 from sklearn import linear_model,datasets
 import matplotlib.pyplot as plt
+from dataset import data
+
 from sklearn.metrics import mean_squared_error,r2_score
 import numpy as np
 from sklearn import svm
 model = svm.SVC()
+train_x,train_y,test_x,test_y = data()
+
 model.fit(train_x,train_y)
 pred = model.predict(test_x)
 #to display the number of
