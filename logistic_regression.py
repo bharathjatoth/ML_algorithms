@@ -1,7 +1,10 @@
 from sklearn import linear_model,datasets
 import matplotlib.pyplot as plt
+from dataset import data
+
 from sklearn.metrics import mean_squared_error,r2_score
 import numpy as np
+train_x,train_y,test_x,test_y = data()
 
 #logistic Regression model which predicts the outcome as 0/1, True/False
 #to improve this we can use regularisation, non-linear model, feature scaling
