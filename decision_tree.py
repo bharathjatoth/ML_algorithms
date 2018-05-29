@@ -3,6 +3,8 @@
 # to split into different groups tree uses  various techniques like Gini, Information Gain, Chi-square, entropy.
 from sklearn import linear_model,datasets
 import matplotlib.pyplot as plt
+from dataset import data
+
 from sklearn.metrics import mean_squared_error,r2_score
 import numpy as np
 from sklearn import tree
