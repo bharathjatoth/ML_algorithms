@@ -3,7 +3,7 @@ from sklearn import linear_model,datasets
 import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error,r2_score
 import numpy as np
-
+train_x,train_y,test_x,test_y = data()
 reg  = linear_model.LinearRegression()
 reg.fit(train_x,train_y)
 pred = reg.predict(test_x)
