@@ -1,8 +1,8 @@
 # ML_algorithms
-Linear Regression:</br>
+##Linear Regression:</br>
   This will be used for predicting continuous Values. This uses both L1 and L2 Regularization's. </br>
 Graph for the Linear Regression:</br>
-  Step1: Fit a line for a shop dataset with only one value i.e., predict the price(y) given the quantity(x)</br>
+  ###Step1: Fit a line for a shop dataset with only one value i.e., predict the price(y) given the quantity(x)</br>
   Step2: Next we see to minimize the error by the squared error method. R2 score in the scikitlearn package. y=m*x+c we see the m value i.e., the coefficent and min it.</br>
   Step 3: we use Gradient Descent to minimize the coefficients of the features (x0*a0+x1*a1+x2*a1) (a1,a2 are the coefficients of the features). min coefficients.</br>
   Step 4: For those of more than one coefficent or more than one feature how to see the dependecy of the coefficient of the one (theta1 = 0.001, theta2 = 0.0004) here theta1 will decide the amount of importance to the model. We need to take modulus of the value</br>
