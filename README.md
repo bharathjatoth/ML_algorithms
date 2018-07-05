@@ -16,3 +16,5 @@ Graph for the Linear Regression:</br>
 Logistic Regression:
  This is for Classification in binary. Example, What is the probability of a person picking a item, will it rain today or not?. This will be used for predicting outcome in binary (0 or 1).
  
+## to do the visualisations in the tensorboard the command needed to be run is
+tensorboard --logdir=fullpath(ex:C:\Users\bharathjatoth\need\log) --host=127.0.0.1
